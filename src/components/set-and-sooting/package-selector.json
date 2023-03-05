@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_set_and_sooting_package_selectors",
+  "info": {
+    "displayName": "packageSelector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "extraInfo": {
+      "type": "string"
+    },
+    "package": {
+      "type": "component",
+      "repeatable": true,
+      "component": "set-and-sooting.package-type"
+    }
+  }
+}

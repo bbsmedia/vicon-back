@@ -1,0 +1,40 @@
+{
+  "name": "hq-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Centralized configuration service",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-color-picker": "^4.7.0",
+    "@strapi/plugin-i18n": "4.5.0",
+    "@strapi/plugin-users-permissions": "4.5.0",
+    "@strapi/strapi": "4.5.0",
+    "@strapi/utils": "^4.5.1",
+    "cuid": "^2.1.8",
+    "nanoid": "3",
+    "node-fetch": "^3.3.0",
+    "pg": "^8.8.0",
+    "strapi-plugin-duplicate-button": "^1.1.7",
+    "strapi-plugin-populate-deep": "^1.1.2",
+    "uuid": "^9.0.0"
+  },
+  "author": {
+    "name": "Vlad Blindu"
+  },
+  "strapi": {
+    "uuid": "439884f2-3dc8-406d-b4aa-5c066dc5c10f"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "config": {
+    "tentant": "m-tag"
+  },
+  "license": "UNLINCED"
+}

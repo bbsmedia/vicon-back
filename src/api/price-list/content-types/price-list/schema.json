@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_lists",
+  "info": {
+    "singularName": "price-list",
+    "pluralName": "price-lists",
+    "displayName": "PriceList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "public": {
+      "type": "boolean",
+      "default": false,
+      "private": true
+    },
+    "uid": {
+      "type": "string",
+      "required": false,
+      "private": true,
+      "unique": true
+    },
+    "talentsOnSet": {
+      "type": "json"
+    },
+    "videoQuality": {
+      "type": "json"
+    },
+    "packages": {
+      "type": "json"
+    },
+    "setTime": {
+      "type": "json"
+    },
+    "editing": {
+      "type": "json"
+    },
+    "postGraphics": {
+      "type": "json"
+    },
+    "animatedHost": {
+      "type": "json"
+    },
+    "eConference": {
+      "type": "json"
+    },
+    "customSet": {
+      "type": "json"
+    },
+    "customOnSetGraphics": {
+      "type": "json"
+    },
+    "music": {
+      "type": "json"
+    },
+    "sections": {
+      "type": "json"
+    }
+  }
+}
